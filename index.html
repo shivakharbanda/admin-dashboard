@@ -7,84 +7,207 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap');
-    </style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,900&display=swap');
+    </style> 
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="item-1 main-head">
-                <h1>Dashboard</h1>
+            <div class="upper-sidebar">
+                <div class="item-1 main-head">
+                    <svg style="width: 35px;height:35px;" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+                    </svg>
+                    <h1> Dashboard</h1>
+                </div>
+                <div class="item-2 main-head">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+                    </svg>
+                    <h2>Home</h2>
+                </div>
+                <div class="item-3 main-head">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,8.39C13.57,9.4 15.42,10 17.42,10C18.2,10 18.95,9.91 19.67,9.74C19.88,10.45 20,11.21 20,12C20,16.41 16.41,20 12,20C9,20 6.39,18.34 5,15.89L6.75,14V13A1.25,1.25 0 0,1 8,11.75A1.25,1.25 0 0,1 9.25,13V14H12M16,11.75A1.25,1.25 0 0,0 14.75,13A1.25,1.25 0 0,0 16,14.25A1.25,1.25 0 0,0 17.25,13A1.25,1.25 0 0,0 16,11.75Z" />
+                    </svg>
+                    <h2>Profile</h2>
+                </div>
+                <div class="item-4 main-head ">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M11,24H13V22H11V24M7,24H9V22H7V24M15,24H17V22H15V24Z" />
+                    </svg>
+                    <h2>Messages</h2>
+                </div>
+                <div class="item-5 main-head">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3" />
+                    </svg>
+                    <h2>History</h2>
+                </div>
+                <div class="item-6 main-head">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M15 7H20.5L15 1.5V7M8 0H16L22 6V18C22 19.11 21.11 20 20 20H8C6.89 20 6 19.1 6 18V2C6 .89 6.89 0 8 0M17 16V14H8V16H17M20 12V10H8V12H20Z" />
+                    </svg>
+                    <h2>Tasks</h2>
+                </div>
+                <div class="item-7 main-head" >
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z" />
+                    </svg>
+                    <h2>Communities</h2>
+                </div>
             </div>
-            <div class="item-2">
-                <h2>Home</h2>
+            <div class="lower-sidebar ">
+
+                <div class="item-8  main-head">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M14 18V16L10 19.5L14 23V21H17V18H14M22 15.5L18 12V14H15V17H18V19L22 15.5M21.66 8.73L19.66 5.27C19.54 5.05 19.28 4.96 19.05 5.05L16.56 6.05C16.05 5.64 15.5 5.31 14.87 5.05L14.5 2.42C14.46 2.18 14.25 2 14 2H10C9.75 2 9.54 2.18 9.5 2.42L9.13 5.07C8.5 5.33 7.96 5.66 7.44 6.07L5 5.05C4.77 4.96 4.5 5.05 4.39 5.27L2.39 8.73C2.26 8.94 2.31 9.22 2.5 9.37L4.57 11C4.53 11.33 4.5 11.67 4.5 12C4.5 12.33 4.53 12.67 4.57 13L2.46 14.63C2.26 14.78 2.21 15.06 2.34 15.27L4.34 18.73C4.45 19 4.74 19.11 5 19L5 19L7.5 18C7.74 18.19 8 18.37 8.26 18.53L11.77 15.53C9.84 15.4 8.38 13.73 8.5 11.8C8.65 9.87 10.32 8.41 12.25 8.55C13.69 8.64 14.92 9.62 15.35 11H19.43L21.54 9.37C21.73 9.22 21.78 8.94 21.66 8.73Z" />
+                    </svg>
+                    <h2>Settings</h2>
+                </div>
+                <div class="item-9  main-head">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                      </svg>
+                    <h2>Support</h2>
+                </div>
+                <div class="item-10  main-head">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647z"/>
+                      </svg>
+                    <h2>Privacy</h2>
+                </div>
             </div>
-            <div class="item-3">
-                <h2>Profile</h2>
-            </div>
-            <div class="item-4">
-                <h2>Messages</h2>
-            </div>
-            <div class="item-5">
-                <h2>History</h2>
-            </div>
-            <div class="item-6">
-                <h2>Tasks</h2>
-            </div>
-            <div class="item-7">
-                <h2>Communities</h2>
-            </div>
-            <div class="item-8">
-                <h2>Settings</h2>
-            </div>
-            <div class="item-9">
-                <h2>Support</h2>
-            </div>
-            <div class="item-10">
-                <h2>Privacy</h2>
-            </div>
-    
         </div>
     
         <header>
             <div class="upper-header">
-                <button class="search"></button>
-                <input type="text">
-                <button class="notifications"></button>
-                <div class="profile-pic"></div>
-                <h2>Shinosuke Nohara</h2>
+                <div class="upper-left">
+                    <button class="search"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-search" viewBox="-12 -9 32 32">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                    </button>
+                    <input type="text" class="search-box">
+                </div>
+                <div class="upper-right">
+                    <button class="notification-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                          </svg>
+                    </button>
+                    <div class="profile-pic">
+                        <img style="height: inherit; width: inherit; background-color: #f0b429; border-radius: 50%;" src="images/shin-3.jpg" alt="">
+                    </div>
+                    <h2>Shinosuke Nohara</h2>
+                </div>
             </div>
     
             <div class="lower-header">
-                <div class="profile-pic-2"></div>
-                <div class="name-details">
-                    <h5>Hi there,</h5>
-                    <h2>Shinosuke Nohara (@shinchan)</h2>
+                <div class="lower-head-first">
+                    <div class="profile-pic-2">
+                        <img style="height: inherit; width: inherit; background-color: #f0b429; border-radius: 50%;" src="images/shin-3.jpg" alt="">
+
+                    </div>
+                    <div class="name-details">
+                        <h5>Hi there,</h5>
+                        <h2>Shinosuke Nohara (@shinchan)</h2>
+                    </div>
                 </div>
-                <button class="header-lower-btns">New</button>
-                <button class="header-lower-btns">Upload</button>
-                <button class="header-lower-btns">Share</button>
+               
+                <div class="lower-head-btns">
+                    <button class="header-lower-btns">New</button>
+                    <button class="header-lower-btns">Upload</button>
+                    <button class="header-lower-btns">Share</button>
+                </div>
+
             </div>
         </header>
     
         <div class="main-content">
+            <h2>Your Projects</h2>
             <div class="main-section-1">
-                <h3>Your Projects</h3>
-                <div class="main-content-cards"></div>
-                <div class="main-content-cards"></div>
-                <div class="main-content-cards"></div>
-                <div class="main-content-cards"></div>
-                <div class="main-content-cards"></div>
-                <div class="main-content-cards"></div>
+                <div class="main-content-cards">
+                    <h3>Super Cool Project</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis laboriosam nulla quaerat assumenda eaque enim, illum numquam eligendi fugiat adipisci tempore quam sequi ducimus. Laudantium eos consequuntur voluptatum assumenda obcaecati?</p>
+                </div>
+                <div class="main-content-cards">
+                    <h3>Less Cool Project</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis laboriosam nulla quaerat assumenda eaque enim, illum numquam eligendi fugiat adipisci tempore quam sequi ducimus. Laudantium eos consequuntur voluptatum assumenda obcaecati?</p>
+                </div>
+                <div class="main-content-cards">
+                    <h3>Impossible App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis laboriosam nulla quaerat assumenda eaque enim, illum numquam eligendi fugiat adipisci tempore quam sequi ducimus. Laudantium eos consequuntur voluptatum assumenda obcaecati?</p>
+                </div>
+                <div class="main-content-cards">
+                    <h3>Easy Peasy App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis laboriosam nulla quaerat assumenda eaque enim, illum numquam eligendi fugiat adipisci tempore quam sequi ducimus. Laudantium eos consequuntur voluptatum assumenda obcaecati?</p>
+                </div>
+                <div class="main-content-cards">
+                    <h3>Add Blocker</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis laboriosam nulla quaerat assumenda eaque enim, illum numquam eligendi fugiat adipisci tempore quam sequi ducimus. Laudantium eos consequuntur voluptatum assumenda obcaecati?</p>
+                </div>
+                <div class="main-content-cards">
+                    <h3>Money Maker</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis laboriosam nulla quaerat assumenda eaque enim, illum numquam eligendi fugiat adipisci tempore quam sequi ducimus. Laudantium eos consequuntur voluptatum assumenda obcaecati?</p>
+                </div>
             </div>
     
             <div class="main-section-2">
-                <h3>Announcements</h3>
-                <div class="announcement-card"></div>
-                <h3>Trending</h3>
-                <div class="trending-card">
-    
+                <h2>Announcements</h2>
+                <div class="main-section-2-1">
+                    <div class="announcement-card">
+                        <div class="annon">
+                            <h3>Site Maintenance</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum sequi ratione deleniti iure doloribus nihil veniam, porro, sint, citecto nemo deserun..?</p>
+                        </div>
+                        <hr>
+                        <div class="annon">
+                            <h3>Community Share Day</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicingndis minatis. Tempora, natus atque..?</p>
+                        </div>
+                        <hr>
+                        <div class="annon">
+                            <h3>Updated Privacy Policy</h3>
+                            <p>Lorem ipsum dolor sit amet Quisquam eaque similique omnis aspernatur porro fugit quam voluptatem quia aut quo et aliquid dolores ipsum nihil eligendi nam quod, dignissimos vel!.</p>
+                        </div>
+                    </div>
                 </div>
+                <h2>Trending</h2>
+                <div class="main-section-2-2">
+
+                    <div class="trending-card">
+                        <div class="trend">
+                            <div id="profile-pic"></div>
+                            <div>
+                                <h3>@tegan</h3>
+                                <h4>World Peace Builder</h4>
+                            </div>
+
+                        </div>
+                        <div class="trend">
+                            <div id="profile-pic"></div>
+                            <div>
+                                <h3>@morgan</h3>
+                                <h4>Super Cool Project</h4>
+                            </div>
+                        </div>
+                        <div class="trend">
+                            <div id="profile-pic"></div>
+                            <div>
+                                <h3>@kendall</h3>
+                                <h4>Life Changing App</h4>
+                            </div>
+                        </div>
+                        <div class="trend">
+                            <div id="profile-pic" ></div>
+                            <div>
+                                <h3>@alex</h3>
+                                <h4>No Traffic Maker</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
